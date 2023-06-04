@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --btn-primary: #2577fd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+/* common classes */
+.center-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
